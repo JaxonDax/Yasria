@@ -1,0 +1,163 @@
+body{
+	font-family: Helvetica;
+	font-size: 25px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background:  rgba(100, 10, 10, 0.9);
+}
+
+/*Global**/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+#nbar{
+	background-color: #f8edeb;
+	height: 10px;
+}
+
+/*Header**/
+header{
+	background: #AB2B2B;
+	color: #f8edeb;
+	padding-top: 0px;
+	min-height: 20px;
+	border-bottom: #8d99ae;
+}
+
+header a{
+	color: #f8edeb;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+	margin: 0;
+	font-weight: bold;
+}
+
+header nav{
+	float: right;
+	margin-top: 50px;
+}
+
+header .current a{
+	color: #F7B538;
+}
+
+header a:hover{
+	color: #f8edeb;
+	font-weight: bold;
+}
+
+/*tbox*/
+#tbox{
+	min-height: 300px;
+	text-align: center;
+	color: #f8edeb;
+	margin: auto;
+}
+
+#tbox h1{
+	font-size: 55px;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+#tbox p{
+	font-size: 35px;
+	font-weight: bold;
+}
+
+/*Map*/
+#Map{
+	min-height: 400px;
+	background-repeat: 0;
+}
+
+/*boxes*/
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes h1{
+	color: #f8edeb;
+}
+
+#boxes .box1{
+	color: #f8edeb;
+}
+
+#boxes .box2{
+	float: left;
+	width: 25%;
+	font-size: 20px;
+	color: #f8edeb;
+}
+
+#boxes .box3{
+	float: left;
+	width: 20%;
+	font-size: 20px;
+	color: #f8edeb;
+}
+
+/*Provinces*/
+#umakwa{
+	min-height: 300px;
+	background: url(../img/Umakwa.jpg) no-repeat 0 -500px;
+	margin-top: 20px;
+	font-size: 30px;
+	opacity: 0.5;
+}
+
+#umakwa:hover{
+	opacity: 1;
+}
+
+/*Umakwa*/
+#ppics{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	padding: 0;
+}
+
+#ppics img{
+	flex-shrink: 0;
+	min-width: 50%;
+	min-height: 50%;
+
+}
+
+#text{
+	float: center;
+	color: black;
+	font-family: Arial;
+	letter-spacing: .2rem;
+	font-size: 30px;
+	background-color: #f8edeb;
+}
+
+/*Market*/
+#showcase{
+	min-height: 400px;
+	background: url(../img/up1.png) no-repeat 0 -600px;
+}
